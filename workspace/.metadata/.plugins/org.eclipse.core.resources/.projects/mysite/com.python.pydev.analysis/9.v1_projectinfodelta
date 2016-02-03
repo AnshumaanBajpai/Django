@@ -1,0 +1,11 @@
+INSTUPpolls.models
+C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\models.py
+INFOS:&&1|1|2|0&&3|3|2|1&&3|4|2|1&&1|5|2|0&&3|6|2|5&&3|7|2|5&&3|8|2|5
+question_text=3
+pub_date=4
+Choice=5
+question=6
+polls.models=2
+Question=1
+choice_text=7
+votes=8

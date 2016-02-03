@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+java_doc_default=63,95,191
+java_doc_keyword=127,159,191
+java_doc_link=63,63,191
+java_doc_tag=127,127,159
+js_default=0,0,0
+js_keyword=127,0,85
+js_keyword_return=127,0,85
+js_ml_comment=63,127,95
+js_operator=0,0,0
+js_regexp=42,0,255
+js_reserved=127,0,85
+js_sl_comment=63,127,95
+js_ssi=0,0,0
+js_string=42,0,255
+js_task_tag=127,127,159

@@ -10,4 +10,6 @@ polls.migrations.0001_initial|C:\Users\Anshumaan\Desktop\Github\Django\workspace
 polls.migrations.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\migrations\__init__.py
 polls.models|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\models.py
 polls.tests|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\tests.py
+polls.urls|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\urls.py
 polls.views|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\views.py
+polls.views_nonGeneric|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\views_nonGeneric.py

@@ -2,36 +2,77 @@
 -- START DISKCACHE_2
 C:\Users\Anshumaan\Desktop\Github\Django\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\mysite\com.python.pydev.analysis\v2_indexcache
 mysite.__init__|1454375189574778000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\__init__.py
-mysite.urls|1454375189574778000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\urls.py
+polls.admin|1454464105200499000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\admin.py
+mysite.urls|1454803787013442000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\urls.py
 mysite.wsgi|1454375189574778000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\wsgi.py
-mysite.settings|1454375189559152000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\settings.py
+polls.tests|1454377598875563000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\tests.py
+polls.models|1454463902346118000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\models.py
+polls.views|1454870530986300000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\views.py
 manage|1454375189512271000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\manage.py
+polls.__init__|1454377598877563000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\__init__.py
+polls.views_nonGeneric|1454869765826954000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\views_nonGeneric.py
+polls.urls|1454870572024018000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\urls.py
+polls.migrations.0001_initial|1454378306940779000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\migrations\0001_initial.py
+mysite.settings|1454464521483102000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\settings.py
+polls.migrations.__init__|1454377598879502000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\migrations\__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
-3
-3=mysite.urls
+14
+3=polls.admin
+11=Choice
+9=mysite.urls
 2=mysite.wsgi
+12=Migration
+4=polls.models
+6=polls.views
+14=QuestionAdmin
+5=polls.views_nonGeneric
+13=ChoiceInline
+8=polls.urls
+7=polls.migrations.0001_initial
+10=Question
 1=mysite.settings
 -- END DICTIONARY
 -- START TREE 1
-16
+23
 all|1|ALLOWED_HOSTS!11@
 app|1|application!19@
 bas|1|BASE_DIR!11@
+cho|2|ChoiceInline!25@Choice!33@
 dat|1|DATABASES!11@
 deb|1|DEBUG!11@
+det|2|detail!42@detail!50@
+ind|2|index!42@index!50@
 ins|1|INSTALLED_APPS!11@
 lan|1|LANGUAGE_CODE!11@
 mid|1|MIDDLEWARE_CLASSES!11@
+mig|1|Migration!57@
+que|2|Question!33@QuestionAdmin!25@
+res|2|results!42@results!50@
 roo|1|ROOT_URLCONF!11@
 sec|1|SECRET_KEY!11@
 sta|1|STATIC_URL!11@
-tem|1|TEMPLATE_DEBUG!11@
+tem|2|TEMPLATE_DEBUG!11@TEMPLATE_DIRS!11@
 tim|1|TIME_ZONE!11@
-url|1|urlpatterns!27@
+url|2|urlpatterns!67@urlpatterns!75@
 use|3|USE_I18N!11@USE_TZ!11@USE_L10N!11@
+vot|2|vote!42@vote!50@
 wsg|1|WSGI_APPLICATION!11@
 -- END TREE
 -- START TREE 2
-0
+14
+__s|2|__str__!10&34@__str__!11&34@
+cho|1|choice_text!11&35@
+dep|1|dependencies!12&59@
+ext|1|extra!13&27@
+fie|1|fieldsets!14&27@
+inl|1|inlines!14&27@
+lis|2|list_display!14&27@list_filter!14&27@
+mod|1|model!13&27@
+ope|1|operations!12&59@
+pub|1|pub_date!10&35@
+que|2|question_text!10&35@question!11&35@
+sea|1|search_fields!14&27@
+vot|1|votes!11&35@
+was|1|was_published_recently!10&34@
 -- END TREE

@@ -1,0 +1,37 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+from rango.models import Category
+from rango.models import Page
+
+
+## Defining a basic index view
+def index(request):
+    # Query the database for a lost of ALL categories currently stored
+    category_list = Category.objects.order_by('-likes')[:5]
+    context_dict = {'categories': category_list}
+    return render(request, 'rango/index.html', context_dict)
+
+## Defining an about View
+def about(request):
+    return HttpResponse("Rango says here is the about page. You can go to the <br/> <a href='/rango/'> index </a>.")
+
+## Defining a category View
+def category(request, category_name_slug):
+    #Creating a context dictionary which we can pass to the template rendering
+    context_dict={}
+    
+    try:
+        category = Category.objects.get(slug=category_name_slug)
+        context_dict['category_name'] = category.name
+        
+        ##Retrieve all of the associated PAGES
+        pages = Page.objects.filter(category=category)
+        context_dict['pages'] = pages
+        context_dict['category'] = category 
+        
+    except Category.DoesNotExist:
+        pass
+    
+    print context_dict['category_name']
+    
+    return render(request, 'rango/category.html', context_dict) 

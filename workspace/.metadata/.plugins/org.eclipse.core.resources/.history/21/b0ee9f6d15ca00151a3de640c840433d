@@ -1,5 +1,0 @@
-from django.contrib import admin
-from polls.models import Question
-
-# Registering the Question model.
-admin.site.register(Question)

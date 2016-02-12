@@ -1,0 +1,17 @@
+MODULES_MANAGER_V2
+manage|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\manage.py
+populate_rango|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\populate_rango.py
+rango.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\__init__.py
+rango.admin|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\admin.py
+rango.migrations.0001_initial|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0001_initial.py
+rango.migrations.0002_auto_20160211_2221|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0002_auto_20160211_2221.py
+rango.migrations.0003_auto_20160211_2234|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0003_auto_20160211_2234.py
+rango.migrations.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\__init__.py
+rango.models|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\models.py
+rango.tests|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\tests.py
+rango.urls|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\urls.py
+rango.views|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\views.py
+tango_with_django_project.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\__init__.py
+tango_with_django_project.settings|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\settings.py
+tango_with_django_project.urls|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\urls.py
+tango_with_django_project.wsgi|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\wsgi.py

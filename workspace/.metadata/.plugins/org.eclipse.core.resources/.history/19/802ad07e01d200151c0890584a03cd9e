@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 
 # Creating the basic Index view
@@ -8,5 +9,4 @@ def index(request):
 
 # Creating an about view
 def about(request):
-    context_dict = {}
-    return render(request, 'rango/about.html', context_dict)
+    return HttpResponse("Rango says here is the about page. Go to the <br/> <a href = '/rango/'> index </a> page.")

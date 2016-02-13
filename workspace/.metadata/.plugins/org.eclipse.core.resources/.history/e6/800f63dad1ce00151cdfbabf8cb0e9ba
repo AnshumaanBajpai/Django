@@ -1,7 +1,0 @@
-from django.conf.urls import patterns, url
-from rango import views
-
-
-##Mapping the views in rango/views.py to urls
-urlpatterns = patterns('',
-                       url(r'^$', views.index, name='index'))

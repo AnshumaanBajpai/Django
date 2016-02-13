@@ -6,4 +6,5 @@ urlpatterns = patterns('',
                        # Any empty string after /rango/ will invoke views.index
                        url(r'^$', views.index, name="index"),
                        url(r'^about/', views.about, name="about"),
+                       url(r'^category/(?P<category_name_slug>[\w\-]+)/$', views.category, name='category'),
 )

@@ -1,0 +1,6 @@
+from django.http import HttpResponse
+
+
+# Creating the basic Index view
+def index(request):
+    return HttpResponse("Rango says hey there world!")

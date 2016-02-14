@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;tango_with_django_project/rango/urls&apos; to &apos;urls.py&apos;" description="Rename resource &apos;urls&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rango/urls" name="urls.py" stamp="1454981265482" updateReferences="true"/>
-</session>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;tango_with_django_project/rango/urls&apos; to &apos;urls.py&apos;" description="Rename resource &apos;urls&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rango/urls" name="urls.py" stamp="1454981265482" updateReferences="true"/>&#x0A;&#x0A;</session>

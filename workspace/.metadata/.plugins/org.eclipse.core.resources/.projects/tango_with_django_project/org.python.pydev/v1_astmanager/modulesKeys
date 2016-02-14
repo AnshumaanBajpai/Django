@@ -3,6 +3,7 @@ manage|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_proj
 populate_rango|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\populate_rango.py
 rango.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\__init__.py
 rango.admin|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\admin.py
+rango.forms|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\forms.py
 rango.migrations.0001_initial|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0001_initial.py
 rango.migrations.0002_auto_20160213_0021|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0002_auto_20160213_0021.py
 rango.migrations.0003_category_slug|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0003_category_slug.py

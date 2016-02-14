@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from rango.models import Category
 from rango.models import Page
+from rango.forms import CategoryForm, PageForm
+from django.http.response import HttpResponseRedirect
 
 # Creating the basic Index view
 def index(request):
@@ -21,6 +23,7 @@ def about(request):
 def category(request, category_name_slug):
     # Create a context dictionary which we can pass
     context_dict = {}
+    context_dict['category_name_slug'] = category_name_slug
     
     try:
         # Find out the category for the given slug
@@ -38,4 +41,58 @@ def category(request, category_name_slug):
         pass
     
     return render(request, 'rango/category.html', context_dict)
+
+# Creating an addModel View 
+def add_category(request):
+    # Check if its a HTTP POST
+    if request.method == 'POST':
+        form = CategoryForm(request.POST)
+        
+        # Are the details on form valid
+        if form.is_valid():
+            #save the new category
+            form.save(commit=True)
+            
+            # After submission fo back to the index View
+            return HttpResponseRedirect("/rango/")
+        
+        else:
+            # Print the errors in the form
+            print form.errors
+            
+    else:
+        # If the request was not a POST, display the form to enter details
+        form = CategoryForm()
+        
+    return render(request, 'rango/add_category.html', {'form': form})
+
+# Creating a addPage View
+def add_page(request, category_name_slug):
+    
+    try:
+        cat = Category.objects.get(slug=category_name_slug)
+    except Category.DoesNotExist:
+        cat = None
+        
+    # Check if its a HTTP POST
+    if request.method == 'POST':
+        form = PageForm(request.POST)
+        if form.is_valid():
+            if cat:
+                page = form.save(commit=False)
+                page.category = cat
+                page.views = 0
+                page.save()
+                
+                #return category(request, category_name_slug)
+            
+                return HttpResponseRedirect("/rango/category/"+category_name_slug+"/")
+        else:
+            print form.errors
+    else:
+        form = PageForm()
+    
+    context_dict = {'form':form, 'category':cat}
+    
+    return render(request, 'rango/add_page.html', context_dict)
         

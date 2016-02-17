@@ -55,6 +55,11 @@ ROOT_URLCONF = 'tango_with_django_project.urls'
 
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
+# Password Hashing
+PASSWORD_HASHERS = (
+                    'django.contrib.auth.hashers.PBKDF2PasswordHasher',
+                    'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
+                    )
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
@@ -93,3 +98,6 @@ TEMPLATE_DIRS = (
 
 # Media files
 MEDIA_URL = '/media/'
+
+# decorator redirect
+LOGIN_URL = '/rango/login/'

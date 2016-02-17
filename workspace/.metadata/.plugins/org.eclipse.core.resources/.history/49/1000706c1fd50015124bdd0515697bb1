@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}About Rango{% endblock %}
+
+{% block body_block %}
+    <h1>Know about rango</h1>
+    Its a django application
+    You can go to the <a href="{% url 'rango' %}">index</a> page. <br />
+    
+    <img src="{% static "images/dance.gif" %}" alt="Picture of Dancing guy" />
+{% endblock %}

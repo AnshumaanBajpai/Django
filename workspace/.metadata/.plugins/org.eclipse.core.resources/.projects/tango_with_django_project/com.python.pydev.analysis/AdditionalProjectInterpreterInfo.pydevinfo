@@ -4,8 +4,8 @@ C:\Users\Anshumaan\Desktop\Github\Django\workspace\.metadata\.plugins\org.eclips
 rango.migrations.0002_auto_20160213_0021|1455340865536639000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0002_auto_20160213_0021.py
 tango_with_django_project.wsgi|1455324139955614000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\wsgi.py
 rango.__init__|1455324604699308000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\__init__.py
-rango.urls|1455493146409621000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\urls.py
-rango.views|1455493423274854000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\views.py
+rango.urls|1455670008405193000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\urls.py
+rango.views|1455755050451651000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\views.py
 rango.tests|1455324604699308000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\tests.py
 rango.migrations.0001_initial|1455339769357921000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0001_initial.py
 tango_with_django_project.urls|1455332673852661000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\urls.py
@@ -18,7 +18,7 @@ rango.migrations.0003_category_slug|1455377293357151000|C:\Users\Anshumaan\Deskt
 rango.migrations.__init__|1455324604714933000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\__init__.py
 populate_rango|1455342499220618000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\populate_rango.py
 rango.migrations.0004_userprofile|1455483019121431000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\rango\migrations\0004_userprofile.py
-tango_with_django_project.settings|1455480828569456000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\settings.py
+tango_with_django_project.settings|1455669910197601000|C:\Users\Anshumaan\Desktop\Github\Django\workspace\tango_with_django_project\tango_with_django_project\settings.py
 -- END DISKCACHE
 -- START DICTIONARY
 28
@@ -52,7 +52,7 @@ tango_with_django_project.settings|1455480828569456000|C:\Users\Anshumaan\Deskto
 25=UserForm
 -- END DICTIONARY
 -- START TREE 1
-26
+28
 abo|1|about!10@
 add|4|add_cat!18@add_page!18@add_page!10@add_category!10@
 all|1|ALLOWED_HOSTS!27@
@@ -64,6 +64,7 @@ deb|1|DEBUG!27@
 ind|1|index!10@
 ins|1|INSTALLED_APPS!27@
 lan|1|LANGUAGE_CODE!27@
+log|1|LOGIN_URL!27@
 med|2|MEDIA_URL!27@MEDIA_ROOT!27@
 mid|1|MIDDLEWARE_CLASSES!27@
 mig|4|Migration!65@Migration!73@Migration!81@Migration!89@
@@ -71,13 +72,14 @@ pag|3|PageForm!49@Page!41@PageAdmin!57@
 pas|1|PASSWORD_HASHERS!27@
 pop|1|populate!18@
 reg|1|register!10@
+res|1|restricted!10@
 roo|1|ROOT_URLCONF!27@
 sec|1|SECRET_KEY!27@
 sta|3|STATIC_PATH!27@STATICFILES_DIRS!27@STATIC_URL!27@
 tem|3|TEMPLATE_DIRS!27@TEMPLATE_DEBUG!27@TEMPLATE_PATH!27@
 tim|1|TIME_ZONE!27@
 url|2|urlpatterns!99@urlpatterns!107@
-use|7|USE_L10N!27@USE_I18N!27@USE_TZ!27@UserProfileForm!49@UserProfile!41@user_login!10@UserForm!49@
+use|8|USE_L10N!27@USE_I18N!27@USE_TZ!27@user_logout!10@UserProfileForm!49@UserProfile!41@user_login!10@UserForm!49@
 wsg|1|WSGI_APPLICATION!27@
 -- END TREE
 -- START TREE 2

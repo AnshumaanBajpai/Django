@@ -1,15 +1,1 @@
 MODULES_MANAGER_V2
-manage|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\manage.py
-mysite.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\__init__.py
-mysite.settings|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\settings.py
-mysite.urls|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\urls.py
-mysite.wsgi|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\mysite\wsgi.py
-polls.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\__init__.py
-polls.admin|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\admin.py
-polls.migrations.0001_initial|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\migrations\0001_initial.py
-polls.migrations.__init__|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\migrations\__init__.py
-polls.models|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\models.py
-polls.tests|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\tests.py
-polls.urls|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\urls.py
-polls.views|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\views.py
-polls.views_nonGeneric|C:\Users\Anshumaan\Desktop\Github\Django\workspace\mysite\polls\views_nonGeneric.py

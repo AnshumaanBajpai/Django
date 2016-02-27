@@ -63,14 +63,4 @@ def run_query(search_terms):
     # Return the results
     return results
     
-# A main function to test the above function
-def main():
-    query_for_search = raw_input("Enter Query \n")
-    output = run_query(query_for_search)
     
-    for i in range(10):
-        print output[i]['title']
- 
-if __name__ == '__main__':
-    main()       
-#     

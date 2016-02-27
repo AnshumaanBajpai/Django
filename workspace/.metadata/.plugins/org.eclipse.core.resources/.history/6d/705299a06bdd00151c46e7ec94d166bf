@@ -6,7 +6,6 @@ from rango.forms import CategoryForm, PageForm, UserForm, UserProfileForm
 from django.http.response import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.decorators import login_required
 from datetime import datetime
-from rango.bing_search import run_query
 
 # Creating the basic Index view
 def index(request):

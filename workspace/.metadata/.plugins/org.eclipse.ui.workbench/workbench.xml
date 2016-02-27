@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="44" version="2.0">
+<workbench progressCount="38" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="747" x="-1" y="1">
 <fastViewData fastViewLocation="1024"/>
@@ -29,27 +29,20 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.html" name="base.html" partName="base.html" path="C:/Users/Anshumaan/Desktop/Github/Django/workspace/tango_with_django_project/templates/base.html" title="base.html" tooltip="tango_with_django_project/templates/base.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tango_with_django_project/templates/base.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2512" selectionTopPixel="663"/>
-</editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.html" name="cats.html" partName="cats.html" path="C:/Users/Anshumaan/Desktop/Github/Django/workspace/tango_with_django_project/templates/rango/cats.html" title="cats.html" tooltip="tango_with_django_project/templates/rango/cats.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tango_with_django_project/templates/rango/cats.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="233" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="C:\Users\Anshumaan\Desktop\Github\WebDevelopment\HTML\index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/Anshumaan/Desktop/Github/WebDevelopment/HTML/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="297" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets"/>
 <view id="com.aptana.terminal.views.terminal" partName="Terminal"/>
-<view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -61,9 +54,6 @@
 </viewState>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
@@ -107,13 +97,10 @@
 <new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.aptana.terminal.views.terminal"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.aptana.samples.ui.SamplesView"/>
-<view id="com.aptana.snippets.ui.views.SnippetsView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -150,15 +137,11 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@156c69c" ratio="0.7496063" ratioLeft="476" ratioRight="159" relationship="4" relative="left">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
-<page content="com.aptana.snippets.ui.views.SnippetsView" label="Snippets"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -184,13 +167,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/templatetags/rango_extras.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/cats.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/base.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/base.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/Users/Anshumaan/Desktop/Github/WebDevelopment/HTML/index.html"/>
 </editors>
-<item historyLabel="index.html" index="5">
-<position/>
-</item>
-<item historyLabel="login.html" index="6">
-<position/>
-</item>
 <item historyLabel="register.html" index="7">
 <position info="not_deleted" x="1039" y="0"/>
 </item>
@@ -332,8 +311,14 @@
 <item historyLabel="base.html" index="15">
 <position info="not_deleted" x="2512" y="0"/>
 </item>
-<item active="true" historyLabel="cats.html" index="14">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="cats.html" index="14">
+<position info="not_deleted" x="233" y="0"/>
+</item>
+<item historyLabel="base.html" index="16">
+<position info="not_deleted" x="2512" y="0"/>
+</item>
+<item active="true" historyLabel="index.html" index="17">
+<position info="not_deleted" x="15" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -352,6 +337,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="C:\Users\Anshumaan\Desktop\Github\WebDevelopment\HTML\index.html">
+<persistable uri="file:/C:/Users/Anshumaan/Desktop/Github/WebDevelopment/HTML/index.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="cats.html" tooltip="tango_with_django_project/templates/rango/cats.html">
 <persistable path="/tango_with_django_project/templates/rango/cats.html"/>
 </file>
@@ -393,9 +381,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="logout.html" tooltip="tango_with_django_project/templates/registration/logout.html">
 <persistable path="/tango_with_django_project/templates/registration/logout.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="restricted.html" tooltip="tango_with_django_project/templates/rango/restricted.html">
-<persistable path="/tango_with_django_project/templates/rango/restricted.html"/>
 </file>
 </mruList>
 </workbench>

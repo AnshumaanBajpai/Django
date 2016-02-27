@@ -6144,3 +6144,24 @@ added as a source folder for pydev (project: mysite) member:null
 !ENTRY com.aptana.shared_core 2 2 2016-02-23 22:51:21.824
 !MESSAGE Unable to find the path /${PROJECT_DIR_NAME} in the project were it's 
 added as a source folder for pydev (project: tango_with_django_project) member:null
+!SESSION 2016-02-24 22:07:08.341 -----------------------------------------------
+eclipse.buildId=3.4.1.201306062137
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-02-24 22:08:06.411
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob
+!SESSION 2016-02-24 22:08:06.614 -----------------------------------------------
+eclipse.buildId=3.4.1.201306062137
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2016-02-24 22:32:03.862
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+	at org.jruby.RubyHash.replace(org/jruby/RubyHash.java:1623)

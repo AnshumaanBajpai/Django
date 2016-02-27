@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;tango_with_django_project/rango/key.py&apos; to &apos;keys.py&apos;" description="Rename resource &apos;key.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rango/key.py" name="keys.py" stamp="1456588022333" updateReferences="true"/>
+</session>

@@ -1,0 +1,66 @@
+import json
+import urllib, urllib2
+import keys
+
+# Adding the BING API KEY
+BING_API_KEY = keys.BING_API_KEY
+
+def run_query(search_terms):
+    # Specifying the base
+    root_url = 'https://api.datamarket.azure.com/Bing/Search/'
+    source = 'Web'
+    
+    # Specifying the number of results that we wish per page
+    # Offset specifies where int he results list to start
+    results_per_page = 10
+    offset = 0
+    
+    # Wrapping the search query with quotes as required bny Bing API
+    query = "'{0}'".format(search_terms)
+    query = urllib.quote(query)
+    
+    # format the complete url with response and other properties
+    search_url = "{0}{1}?$format=json&$top={2}&$skip={3}&Query={4}".format(
+                                                                           root_url,
+                                                                           source,
+                                                                           results_per_page,
+                                                                           offset,
+                                                                           query)
+    
+    # Setting up the authentication
+    username = ''
+    
+    # Create a password manager to handle authentication
+    password_mgr = urllib2.HTTPPasswordMgrWithDefaultRealm()
+    password_mgr.add_password(None, search_url, username, BING_API_KEY)
+    
+    # Create our results list which we'll populate
+    results = []
+    
+    try:
+        # Prepare for connecting to Bing's servers.
+        handler = urllib2.HTTPBasicAuthHandler(password_mgr)
+        opener = urllib2.build_opener(handler)
+        urllib2.install_opener(opener)
+        
+        # Connect to the server and read the response generated
+        response = urllib2.urlopen(search_url).read()
+        
+        # Convert the string response to a python dictionary
+        json_response = json.loads(response)
+        
+        # Loop through each page returned, populating our results list.
+        for result in json_response['d']['results']:
+            results.append({
+                            'title': result['Title'],
+                            'link': result['Url'],
+                            'summary': result['Description']})
+            
+            # Catch a URLError exception-something went wrong while connecting
+    except urllib2.URLError as e:
+        print "Error when querying the Bing API: ", e
+        
+    # Return the results
+    return results
+    
+    

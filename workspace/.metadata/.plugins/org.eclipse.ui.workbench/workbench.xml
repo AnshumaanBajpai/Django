@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="38" version="2.0">
+<workbench progressCount="44" version="2.0">
 <workbenchAdvisor/>
-<window height="728" maximized="true" width="747" x="-1" y="1">
+<window height="728" width="675" x="695" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="267" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="137" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
@@ -17,8 +17,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -33,9 +33,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="C:\Users\Anshumaan\Desktop\Github\WebDevelopment\HTML\index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/Anshumaan/Desktop/Github/WebDevelopment/HTML/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="297" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="views.py" partName="views" path="C:/Users/Anshumaan/Desktop/Github/Django/workspace/tango_with_django_project/rango/views.py" title="views" tooltip="tango_with_django_project/rango/views.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/tango_with_django_project/rango/views.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -57,7 +57,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.editor.html" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -151,174 +151,172 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/tango_with_django_project/settings.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/add_category.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/add_page.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/base.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/category.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/login.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/register.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/restricted.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/registration/login.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/registration/logout.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/registration/registration_form.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/templatetags/__init__.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/templatetags/rango_extras.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/cats.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/base.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/base.html"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/C:/Users/Anshumaan/Desktop/Github/WebDevelopment/HTML/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/bing_search.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/key.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/search.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/tango_with_django_project/templates/rango/base.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/views.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/urls.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/tango_with_django_project/urls.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/tango_with_django_project/rango/views.py"/>
 </editors>
-<item historyLabel="register.html" index="7">
-<position info="not_deleted" x="1039" y="0"/>
-</item>
-<item historyLabel="restricted.html" index="8">
-<position info="not_deleted" x="193" y="0"/>
-</item>
-<item historyLabel="login.html" index="9">
-<position/>
-</item>
-<item historyLabel="login.html | rango" index="6">
-<position/>
-</item>
-<item historyLabel="login.html" index="9">
-<position/>
-</item>
-<item historyLabel="logout.html" index="10">
-<position info="not_deleted" x="177" y="0"/>
-</item>
-<item historyLabel="registration_form.html" index="11">
-<position/>
-</item>
-<item historyLabel="logout.html" index="10">
-<position info="not_deleted" x="177" y="0"/>
-</item>
-<item historyLabel="index.html" index="5">
-<position info="not_deleted" x="1129" y="0"/>
-</item>
-<item historyLabel="login.html | rango" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="login.html | registration" index="9">
-<position info="not_deleted" x="657" y="0"/>
-</item>
-<item historyLabel="login.html" index="6">
-<position info="not_deleted" x="691" y="0"/>
-</item>
-<item historyLabel="login.html | registration" index="9">
-<position info="not_deleted" x="657" y="0"/>
-</item>
-<item historyLabel="login.html" index="6">
-<position info="not_deleted" x="691" y="0"/>
-</item>
-<item historyLabel="index.html" index="5">
-<position info="not_deleted" x="1129" y="0"/>
-</item>
-<item historyLabel="add_page.html" index="2">
-<position info="not_deleted" x="1043" y="0"/>
-</item>
-<item historyLabel="registration_form.html" index="11">
+<item historyLabel="registration_form.html" index="2">
 <position info="not_deleted" x="1190" y="0"/>
 </item>
-<item historyLabel="category.html" index="4">
-<position/>
-</item>
-<item historyLabel="settings" index="0">
-<position info="not_deleted" x="1226" y="0"/>
-</item>
-<item historyLabel="category.html" index="4">
-<position info="not_deleted" x="0" y="836"/>
-</item>
-<item historyLabel="add_category.html" index="1">
-<position info="not_deleted" x="435" y="0"/>
-</item>
-<item historyLabel="category.html" index="4">
-<position info="not_deleted" x="51" y="0"/>
-</item>
-<item historyLabel="templatetags" index="12">
-<position/>
-</item>
-<item historyLabel="rango_extras" index="13">
-<position/>
-</item>
-<item historyLabel="templatetags" index="12">
-<position/>
-</item>
-<item historyLabel="rango_extras" index="13">
-<position/>
-</item>
-<item historyLabel="templatetags" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="rango_extras" index="13">
-<position/>
-</item>
-<item historyLabel="category.html" index="4">
-<position info="not_deleted" x="51" y="0"/>
-</item>
-<item historyLabel="cats.html" index="14">
-<position info="not_deleted" x="268" y="0"/>
-</item>
-<item historyLabel="category.html" index="4">
-<position info="not_deleted" x="51" y="0"/>
-</item>
-<item historyLabel="registration_form.html" index="11">
-<position info="not_deleted" x="1190" y="0"/>
-</item>
-<item historyLabel="add_page.html" index="2">
+<item historyLabel="add_page.html" index="0">
 <position info="not_deleted" x="1043" y="0"/>
 </item>
-<item historyLabel="base.html" index="3">
+<item historyLabel="base.html" index="1">
 <position/>
 </item>
-<item historyLabel="base.html" index="3">
+<item historyLabel="base.html" index="1">
 <position/>
 </item>
-<item historyLabel="base.html | rango" index="3">
+<item historyLabel="base.html | rango" index="1">
 <position/>
 </item>
-<item historyLabel="base.html | templates" index="15">
+<item historyLabel="base.html | templates" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="base.html | rango" index="3">
+<item historyLabel="base.html | rango" index="1">
 <position/>
 </item>
-<item historyLabel="base.html | templates" index="15">
+<item historyLabel="base.html | templates" index="5">
 <position info="not_deleted" x="42" y="0"/>
 </item>
-<item historyLabel="base.html | rango" index="3">
+<item historyLabel="base.html | rango" index="1">
 <position/>
 </item>
-<item historyLabel="base.html" index="15">
+<item historyLabel="base.html" index="5">
 <position info="not_deleted" x="2539" y="0"/>
 </item>
-<item historyLabel="base.html | rango" index="3">
+<item historyLabel="base.html | rango" index="1">
 <position/>
 </item>
-<item historyLabel="base.html" index="15">
+<item historyLabel="base.html" index="5">
 <position info="not_deleted" x="2539" y="0"/>
 </item>
-<item historyLabel="rango_extras" index="13">
+<item historyLabel="rango_extras" index="3">
 <position info="not_deleted" x="173" y="0"/>
 </item>
-<item historyLabel="base.html" index="3">
+<item historyLabel="base.html" index="1">
 <position info="not_deleted" x="2512" y="0"/>
 </item>
-<item historyLabel="rango_extras" index="13">
+<item historyLabel="rango_extras" index="3">
 <position info="not_deleted" x="173" y="0"/>
 </item>
-<item historyLabel="base.html" index="15">
+<item historyLabel="base.html" index="5">
 <position info="not_deleted" x="2512" y="0"/>
 </item>
-<item historyLabel="cats.html" index="14">
+<item historyLabel="cats.html" index="4">
 <position info="not_deleted" x="233" y="0"/>
 </item>
-<item historyLabel="base.html" index="16">
+<item historyLabel="base.html" index="6">
 <position info="not_deleted" x="2512" y="0"/>
 </item>
-<item active="true" historyLabel="index.html" index="17">
-<position info="not_deleted" x="15" y="0"/>
+<item historyLabel="index.html" index="7">
+<position info="not_deleted" x="297" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="2819" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="1391" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="1393" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="1415" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="2537" y="0"/>
+</item>
+<item historyLabel="key" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="77" y="0"/>
+</item>
+<item historyLabel="key" index="9">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="111" y="0"/>
+</item>
+<item historyLabel="key" index="9">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="98" y="0"/>
+</item>
+<item historyLabel="key" index="9">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="2811" y="0"/>
+</item>
+<item historyLabel="search.html" index="10">
+<position info="not_deleted" x="1664" y="0"/>
+</item>
+<item historyLabel="base.html" index="11">
+<position/>
+</item>
+<item historyLabel="views" index="12">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="urls.py | rango" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="urls (tango_with_django_project)" index="14">
+<position info="not_deleted" x="841" y="0"/>
+</item>
+<item historyLabel="urls (rango)" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="urls (tango_with_django_project)" index="14">
+<position info="not_deleted" x="841" y="0"/>
+</item>
+<item historyLabel="urls (rango)" index="13">
+<position info="not_deleted" x="905" y="0"/>
+</item>
+<item historyLabel="search.html" index="10">
+<position info="not_deleted" x="1664" y="0"/>
+</item>
+<item historyLabel="urls (rango)" index="13">
+<position info="not_deleted" x="905" y="0"/>
+</item>
+<item historyLabel="urls (tango_with_django_project)" index="14">
+<position info="not_deleted" x="870" y="0"/>
+</item>
+<item historyLabel="views" index="12">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="base.html" index="11">
+<position/>
+</item>
+<item historyLabel="base.html" index="11">
+<position/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="2811" y="0"/>
+</item>
+<item historyLabel="base.html" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="bing_search" index="8">
+<position info="not_deleted" x="2811" y="0"/>
+</item>
+<item active="true" historyLabel="views" index="15">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -337,6 +335,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="views.py" tooltip="tango_with_django_project/rango/views.py">
+<persistable path="/tango_with_django_project/rango/views.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="base.html" tooltip="tango_with_django_project/templates/rango/base.html">
+<persistable path="/tango_with_django_project/templates/rango/base.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="urls.py" tooltip="tango_with_django_project/tango_with_django_project/urls.py">
+<persistable path="/tango_with_django_project/tango_with_django_project/urls.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="urls.py" tooltip="tango_with_django_project/rango/urls.py">
+<persistable path="/tango_with_django_project/rango/urls.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="search.html" tooltip="tango_with_django_project/templates/rango/search.html">
+<persistable path="/tango_with_django_project/templates/rango/search.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="key.py" tooltip="tango_with_django_project/rango/key.py">
+<persistable path="/tango_with_django_project/rango/key.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="bing_search.py" tooltip="tango_with_django_project/rango/bing_search.py">
+<persistable path="/tango_with_django_project/rango/bing_search.py"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="C:\Users\Anshumaan\Desktop\Github\WebDevelopment\HTML\index.html">
 <persistable uri="file:/C:/Users/Anshumaan/Desktop/Github/WebDevelopment/HTML/index.html"/>
 </file>
@@ -345,9 +364,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="base.html" tooltip="tango_with_django_project/templates/base.html">
 <persistable path="/tango_with_django_project/templates/base.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="base.html" tooltip="tango_with_django_project/templates/rango/base.html">
-<persistable path="/tango_with_django_project/templates/rango/base.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="rango_extras.py" tooltip="tango_with_django_project/rango/templatetags/rango_extras.py">
 <persistable path="/tango_with_django_project/rango/templatetags/rango_extras.py"/>
@@ -363,24 +379,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="category.html" tooltip="tango_with_django_project/templates/rango/category.html">
 <persistable path="/tango_with_django_project/templates/rango/category.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="registration_form.html" tooltip="tango_with_django_project/templates/registration/registration_form.html">
-<persistable path="/tango_with_django_project/templates/registration/registration_form.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="add_page.html" tooltip="tango_with_django_project/templates/rango/add_page.html">
-<persistable path="/tango_with_django_project/templates/rango/add_page.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="login.html" tooltip="tango_with_django_project/templates/registration/login.html">
-<persistable path="/tango_with_django_project/templates/registration/login.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="login.html" tooltip="tango_with_django_project/templates/rango/login.html">
-<persistable path="/tango_with_django_project/templates/rango/login.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="tango_with_django_project/templates/rango/index.html">
-<persistable path="/tango_with_django_project/templates/rango/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="logout.html" tooltip="tango_with_django_project/templates/registration/logout.html">
-<persistable path="/tango_with_django_project/templates/registration/logout.html"/>
 </file>
 </mruList>
 </workbench>
